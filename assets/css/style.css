@@ -1,0 +1,230 @@
+#demo-navbar{
+    border-radius: 0;
+    margin-bottom: 0px;
+}
+
+.header-wrapper {
+  position: relative;
+  height: 510px;
+}
+
+.header-wrapper .navbar {
+  border-radius: 0;
+  position: absolute;
+  width: 100%;
+  z-index: 3;
+}
+.header-wrapper .header {
+  background-color: #B2AFAB;
+  background-position: center center;
+  background-size: cover;
+  height: 510px;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+
+.header-wrapper .header .filter::after {
+  background-color: rgba(0, 0, 0, 0.5);
+  content: "";
+  display: block;
+  height: 510px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+.header-wrapper .header .filter-primary::after {
+  background-color: rgba(96, 133, 134, 0.5);
+}
+.header-wrapper .header .filter-info::after {
+  background-color: rgba(68, 160, 185, 0.5);
+}
+.header-wrapper .header .filter-success::after {
+  background-color: rgba(87, 178, 127, 0.5);
+}
+.header-wrapper .header .filter-warning::after {
+  background-color: rgba(240, 169, 21, 0.5);
+}
+.header-wrapper .header .filter-danger::after {
+  background-color: rgba(205, 71, 19, 0.5);
+}
+
+.header-wrapper .header .container {
+  color: #FFFFFF;
+  position: relative;
+  top: 150px;
+  z-index: 3;
+}
+
+.logo-container .logo{
+    overflow: hidden;
+    width: 200px; 
+    float: left;
+}
+
+.logo-container .logosmall{
+    overflow: hidden;
+    width: 150px; 
+    float: left;
+}
+
+.logo-container{
+    margin-top: 10px;
+}
+.logo-container .logo img, .logo-container .logosmall img{
+    width: 100%;
+}
+
+.navbar-small .logo-container{
+    color: #333333;
+}
+
+.contact-us .big-map {
+  height: 300px;
+  width: 100%;
+}
+
+.contact-us .navbar {
+  margin-bottom: 0px;
+}
+.contact-us .title {
+  margin-top: 40px;
+}
+.contact-us .contact .form-control {
+  margin-bottom: 20px;
+}
+.contact-us .visit {
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+.contact-us .big-map {
+  height: 300px;
+  width: 100%;
+}
+.contact-us .footer-demo {
+  background-color: #f4f3ef;
+}
+
+.footer-demo{
+    background-attachment: fixed;
+    position: relative;
+    line-height: 20px;
+}
+.footer-demo nav > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+.footer-demo nav > ul > li{
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 15px 3px;
+    line-height: 20px; 
+    text-align: center;
+}
+.footer-demo nav > ul > li:first-child{
+    margin: 0;
+    padding: 0;
+}
+.footer-demo nav > ul a:not(.btn) {
+  color: #777777;
+  display: block;
+  margin-bottom: 3px;
+}
+.footer-demo nav > ul a:not(.btn):hover, .footer nav > ul a:not(.btn):focus {
+  color: #E3E3E3;
+}
+.footer-demo .copyright {
+  color: #777777;
+  padding: 10px 15px;
+  font-size: 14px;
+  margin: 15px 3px;
+  line-height: 20px;
+  text-align: center;
+}
+.footer-demo .heart{
+    color: #EB5E28;
+}
+
+.landing-alert {
+  margin-bottom: 0; }
+
+.landing-header {
+  background-size: cover;
+  min-height: 570px; }
+
+.landing-header .motto {
+  padding-top: 8%;
+  text-align: left;
+  z-index: 3; }
+
+.landing-section {
+  padding: 100px 0; }
+
+.landing-section .btn-simple {
+  }
+
+.card[data-color="yellow"] {
+  background: #ffe28c;
+}
+.card[data-color="yellow"] .category {
+  color: #d88715;
+}
+.card[data-color="yellow"] .description {
+  color: #d88715;
+}
+.card[data-color="yellow"] .icon i {
+  color: #b25825;
+  border: 2px solid #d88715;
+}
+
+.card .category i,
+.card .label i {
+  font-size: 16px;
+}
+.card .category {
+  color: #ccc5b9;
+}
+.card .label {
+  text-shadow: none;
+}
+.card .title {
+  color: #252422;
+}
+.card > .title {
+  margin: 0;
+  padding: 30px 0 0;
+}
+.card .content {
+  padding: 20px 20px 10px 20px;
+}
+.card .content .title {
+  margin: 10px 0 20px 0;
+}
+
+.link-purple {
+  color: #baa9ba; }
+.link-purple:hover {
+  color: #3a283d; }
+
+.text-purple, .text-purple:hover {
+  color: #6A5E72; }
+
+.text-warning, .text-warning:hover {
+  color: #F3BB45; }
+ 
+.section-gray-dark {
+  background-color: #B6B8B8;
+  color: #FFFFFF; }
+
+.icon-orange {
+  color: #ff8f5e; }
+
+.icon-purple {
+  color: #baa9ba; }
+.icon-orange {
+  color: #ff8f5e; }
